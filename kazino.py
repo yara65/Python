@@ -1,22 +1,23 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import random
 
-print('Добрый день!')
-number_player=raw_input("Введите число игроков \n ")
+print('Р”РѕР±СЂС‹Р№ РґРµРЅСЊ!')
+number_player=raw_input("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РёРіСЂРѕРєРѕРІ \n ")
 
 #def vvod():
 #for count in mumber_player:
-name1=raw_input("Введите имя игрока 1 \n ")
-#age1=raw_input("Введите возраст игрока 1 \n ")
+name1=raw_input("Р’РІРµРґРёС‚Рµ РёРјСЏ РёРіСЂРѕРєР° 1 \n ")
+#age1=raw_input("Р’РІРµРґРёС‚Рµ РІРѕР·СЂР°СЃС‚ РёРіСЂРѕРєР° 1 \n ")
 
-mny1=int(raw_input("Введите общую сумму игрока 1 \n "))
+mny1=int(raw_input("Р’РІРµРґРёС‚Рµ РѕР±С‰СѓСЋ СЃСѓРјРјСѓ РёРіСЂРѕРєР° 1 \n "))
 
-name2=raw_input("Введите имя игрока 2 \n ")
+name2=raw_input("Р’РІРµРґРёС‚Рµ РёРјСЏ РёРіСЂРѕРєР° 2 \n ")
 
-#age2=raw_input("Введите возраст игрока 2 \n ")
+#age2=raw_input("Р’РІРµРґРёС‚Рµ РІРѕР·СЂР°СЃС‚ РёРіСЂРѕРєР° 2 \n ")
 
-mny2=int(raw_input("Введите общую сумму игрока 2 \n "))
+mny2=int(raw_input("Р’РІРµРґРёС‚Рµ РѕР±С‰СѓСЋ СЃСѓРјРјСѓ РёРіСЂРѕРєР° 2 \n "))
 
 many1=int(str(mny1))
 many2=int(str(mny2))
@@ -37,10 +38,10 @@ class player(object):
         
     def prog():
         if player.many==0:
-            print('Извините '+player.name+ 'но вы проиграли все. Вы покидаете игру')
+            print('РР·РІРёРЅРёС‚Рµ '+player.name+ 'РЅРѕ РІС‹ РїСЂРѕРёРіСЂР°Р»Рё РІСЃРµ. Р’С‹ РїРѕРєРёРґР°РµС‚Рµ РёРіСЂСѓ')
 
     def numb(self,name):
-           return raw_input(name+" Введите число от 1 до 100 \n ")
+           return raw_input(name+" Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РѕС‚ 1 РґРѕ 100 \n ")
            
             
             
@@ -67,11 +68,11 @@ print(player1.name)
         
 while player1.many!=0 and player2.many!=0:
                 
-                print('Hello dear players '+name1+' and '+name2+'\n Начинаем игру')
+                print('Hello dear players '+name1+' and '+name2+'\n РќР°С‡РёРЅР°РµРј РёРіСЂСѓ')
                 print(player1.many,player2.many)
                
-                stav=raw_input(name1+" Введите вашу ставку \n ")
-                stav1=raw_input(name2+" Введите вашу ставку \n ")
+                stav=raw_input(name1+" Р’РІРµРґРёС‚Рµ РІР°С€Сѓ СЃС‚Р°РІРєСѓ \n ")
+                stav1=raw_input(name2+" Р’РІРµРґРёС‚Рµ РІР°С€Сѓ СЃС‚Р°РІРєСѓ \n ")
 
                 stavka=int(str(stav))
                 stavka1=int(str(stav1))
@@ -102,7 +103,7 @@ while player1.many!=0 and player2.many!=0:
                         print(player1.many,many2,player1.vug_prog(many1,stavka))
 
 
-print('Игра окончена')
+print('РРіСЂР° РѕРєРѕРЅС‡РµРЅР°')
 
 
         
